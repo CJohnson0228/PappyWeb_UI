@@ -1,0 +1,22 @@
+/* styling for our variants */
+.btn-primary {
+  border: none;
+  background-color: blue;
+  color: white;
+  &:hover {
+    background-color: lightblue;
+  }
+}
+.btn-danger {
+  border: none;
+  background-color: red;
+  color: white;
+  &:hover {
+    background-color: pink;
+  }
+}
+
+/* styling for different shape*/
+.btn-rounded {
+  border-radius: 0.4rem;
+}
